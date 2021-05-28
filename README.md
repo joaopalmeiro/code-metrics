@@ -22,3 +22,4 @@
     - `radon raw src/ -j -O raw_metrics.json`.
     - `radon raw src/ -j | python -m json.tool > raw_metrics.json` ([source](https://stackoverflow.com/a/1920585)).
     - `radon raw src/ -s`.
+- [json.tool](https://docs.python.org/3/library/json.html#module-json.tool).
