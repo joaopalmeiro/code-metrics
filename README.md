@@ -26,6 +26,8 @@
     - **Multi**: The number of lines which represent multi-line strings.
     - **Single comments**: The number of lines which are just comments with no code.
     - **Blank**: The number of blank lines (or space-only ones).
+    - `SLOC + Multi + Single comments + Blank = LOC`.
+    - Multi-line strings are not counted as comments. They are not comments but strings for the Python interpreter.
   - Commands:
     - `radon raw src/ -j -O raw_metrics.json`.
     - `radon raw src/ -j | python -m json.tool > raw_metrics.json` ([source](https://stackoverflow.com/a/1920585)).
