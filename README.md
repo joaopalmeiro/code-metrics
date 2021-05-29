@@ -1,5 +1,7 @@
 # code-metrics
 
+> Tables for code metrics.
+
 ## Development
 
 ### Python
