@@ -178,4 +178,5 @@ po/*~
 
 # Custom
 raw_metrics.json
-.Rproj.user
+images/raw_metrics.html
+images/raw_metrics.png

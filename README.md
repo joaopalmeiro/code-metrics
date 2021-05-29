@@ -33,3 +33,5 @@
     - `radon raw src/ -j | python -m json.tool > raw_metrics.json` ([source](https://stackoverflow.com/a/1920585)).
     - `radon raw src/ -s`.
 - [json.tool](https://docs.python.org/3/library/json.html#module-json.tool).
+- [{webshot}](https://wch.github.io/webshot/index.html) (it is required for saving images of {gt} tables).
+- Check the font used (within the font stack) in the table using Google Chrome: Chrome DevTools > `Elements` > `Computed` > `Rendered Fonts`.
